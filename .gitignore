@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Tailwind CLI build output
+dist/
+build/
+output/
+public/css/
+public/assets/
+
+# Generated CSS (CLI output)
+*.css.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache
+.cache/
+.tmp/
