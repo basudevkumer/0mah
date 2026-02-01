@@ -11,6 +11,8 @@
     --spacing: 0.25rem;
     --text-base: 1rem;
     --text-base--line-height: calc(1.5 / 1);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
@@ -274,6 +276,12 @@
   .gap-x-12 {
     column-gap: calc(var(--spacing) * 12);
   }
+  .gap-x-\[55\] {
+    column-gap: 55;
+  }
+  .gap-x-\[55px\] {
+    column-gap: 55px;
+  }
   .gap-x-\[70px\] {
     column-gap: 70px;
   }
@@ -315,6 +323,9 @@
   .bg-\[\#FF7527\] {
     background-color: #FF7527;
   }
+  .bg-\[\#\] {
+    background-color: #;
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -351,6 +362,9 @@
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
+  }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
@@ -359,6 +373,9 @@
   }
   .py-\[20px\] {
     padding-block: 20px;
+  }
+  .py-\[31\] {
+    padding-block: 31;
   }
   .py-\[68px\] {
     padding-block: 68px;
@@ -442,6 +459,10 @@
   .text-base\/\[30px\] {
     font-size: var(--text-base);
     line-height: 30px;
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
   }
   .text-\[36px\] {
     font-size: 36px;
